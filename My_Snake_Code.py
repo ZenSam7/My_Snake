@@ -254,6 +254,7 @@ try:
         # Game
         window()
         while RUN:
+            draw()
             food_eaten()
             move_snake()
             spawn_food()
